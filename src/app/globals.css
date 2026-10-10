@@ -229,9 +229,8 @@ button:focus-visible {
   z-index: -1;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(7, 8, 12, 0.72) 0%, rgba(7, 8, 12, 0.28) 18%, transparent 38%),
+    linear-gradient(180deg, rgba(7, 8, 12, 0.72) 0%, rgba(7, 8, 12, 0.22) 16%, transparent 34%, transparent 58%, #07080c 100%),
     linear-gradient(105deg, rgba(7, 8, 12, 0.94) 0%, rgba(7, 8, 12, 0.62) 46%, rgba(7, 8, 12, 0.28) 100%),
-    linear-gradient(0deg, rgba(7, 8, 12, 0.88) 0%, transparent 42%),
     radial-gradient(circle at 78% 28%, rgba(228, 194, 122, 0.18), transparent 38%);
   pointer-events: none;
 }
@@ -498,8 +497,8 @@ button:focus-visible {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(7, 8, 12, 0.92) 0%, rgba(7, 8, 12, 0.72) 48%, rgba(7, 8, 12, 0.55) 100%),
-    linear-gradient(0deg, rgba(7, 8, 12, 0.9) 0%, rgba(7, 8, 12, 0.28) 45%, rgba(7, 8, 12, 0.7) 100%);
+    linear-gradient(180deg, #07080c 0%, rgba(7, 8, 12, 0.78) 16%, rgba(7, 8, 12, 0.42) 48%, rgba(7, 8, 12, 0.78) 84%, #07080c 100%),
+    linear-gradient(105deg, rgba(7, 8, 12, 0.82) 0%, rgba(7, 8, 12, 0.4) 100%);
 }
 
 .who-intro {
@@ -832,10 +831,8 @@ button:focus-visible {
   padding-top: clamp(48px, 6vw, 72px);
   padding-bottom: clamp(56px, 7vw, 88px);
   background:
-    radial-gradient(circle at 80% 20%, rgba(228, 194, 122, 0.18), transparent 36%),
-    linear-gradient(160deg, #16130e 0%, #0c0d11 70%);
+    radial-gradient(circle at 80% 42%, rgba(228, 194, 122, 0.14), transparent 42%);
   color: var(--ink);
-  border-block: 1px solid rgba(228, 194, 122, 0.18);
 }
 
 .giveaway-prize {
@@ -1396,8 +1393,8 @@ button:focus-visible {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(7, 8, 12, 0.94) 0%, rgba(7, 8, 12, 0.72) 42%, rgba(7, 8, 12, 0.35) 100%),
-    linear-gradient(0deg, rgba(7, 8, 12, 0.92) 0%, rgba(7, 8, 12, 0.2) 45%, rgba(7, 8, 12, 0.55) 100%);
+    linear-gradient(180deg, #07080c 0%, rgba(7, 8, 12, 0.72) 16%, rgba(7, 8, 12, 0.38) 48%, rgba(7, 8, 12, 0.72) 84%, #07080c 100%),
+    linear-gradient(90deg, rgba(7, 8, 12, 0.88) 0%, rgba(7, 8, 12, 0.4) 100%);
 }
 
 .content-style .section-kicker {
@@ -1617,8 +1614,8 @@ button:focus-visible {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(7, 8, 12, 0.94) 0%, rgba(7, 8, 12, 0.72) 48%, rgba(7, 8, 12, 0.55) 100%),
-    linear-gradient(0deg, rgba(7, 8, 12, 0.92) 0%, rgba(7, 8, 12, 0.25) 48%, rgba(7, 8, 12, 0.7) 100%);
+    linear-gradient(180deg, #07080c 0%, rgba(7, 8, 12, 0.76) 16%, rgba(7, 8, 12, 0.4) 48%, rgba(7, 8, 12, 0.76) 84%, #07080c 100%),
+    linear-gradient(105deg, rgba(7, 8, 12, 0.86) 0%, rgba(7, 8, 12, 0.42) 100%);
 }
 
 .audience-bg-glow {
@@ -1984,8 +1981,7 @@ button:focus-visible {
   padding-top: clamp(40px, 5vw, 64px);
   padding-bottom: clamp(48px, 6vw, 80px);
   background:
-    radial-gradient(circle at 50% 0%, rgba(228, 194, 122, 0.08), transparent 48%),
-    #05060a;
+    radial-gradient(circle at 50% 46%, rgba(228, 194, 122, 0.07), transparent 46%);
 }
 
 .shorts-heading {
@@ -2110,12 +2106,12 @@ button:focus-visible {
 
 .shorts-fade-left {
   left: 0;
-  background: linear-gradient(90deg, #05060a, transparent);
+  background: linear-gradient(90deg, #07080c, transparent);
 }
 
 .shorts-fade-right {
   right: 0;
-  background: linear-gradient(270deg, #05060a, transparent);
+  background: linear-gradient(270deg, #07080c, transparent);
 }
 
 @keyframes shorts-scroll {
@@ -3420,8 +3416,7 @@ button:focus-visible {
 
   .hero-background-wash {
     background:
-      linear-gradient(180deg, rgba(7, 8, 12, 0.55) 0%, rgba(7, 8, 12, 0.12) 28%, rgba(7, 8, 12, 0.2) 52%, rgba(7, 8, 12, 0.92) 100%),
-      linear-gradient(180deg, transparent 40%, rgba(7, 8, 12, 0.88) 100%);
+      linear-gradient(180deg, rgba(7, 8, 12, 0.55) 0%, rgba(7, 8, 12, 0.1) 24%, rgba(7, 8, 12, 0.16) 46%, #07080c 100%);
   }
 
   .hero-copy {
@@ -3462,26 +3457,7 @@ button:focus-visible {
   }
 
   .hero-foot {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    left: auto;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    margin-top: 22px;
-    color: rgba(246, 241, 232, 0.72);
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    line-height: 1.45;
-  }
-
-  .hero-foot span {
-    max-width: none;
-  }
-
-  .hero-foot a {
-    color: var(--lime);
+    display: none;
   }
 
   .section-kicker {
