@@ -181,7 +181,16 @@ export default function ContentStyle({ items }: { items: Theme[] }) {
                 whileHover={{ scale: 1.06 }}
                 whileTap={{ scale: 0.94 }}
               >
-                ←
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M14.5 6.5 8.5 12l6 5.5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </motion.button>
               <motion.button
                 type="button"
@@ -191,7 +200,16 @@ export default function ContentStyle({ items }: { items: Theme[] }) {
                 whileHover={{ scale: 1.06 }}
                 whileTap={{ scale: 0.94 }}
               >
-                →
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M9.5 6.5 15.5 12l-6 5.5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </motion.button>
             </div>
             <div className="content-style-progress" role="tablist" aria-label="Content themes">

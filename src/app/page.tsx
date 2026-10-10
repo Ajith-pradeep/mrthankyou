@@ -48,6 +48,13 @@ export default function Home() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [menuOpen]);
+
   useGSAP(
     () => {
       const reduceMotion = window.matchMedia(
@@ -161,7 +168,7 @@ export default function Home() {
   return (
     <>
       <motion.header
-        className={`site-header${scrolled ? " is-scrolled" : ""}`}
+        className={`site-header${scrolled ? " is-scrolled" : ""}${menuOpen ? " is-menu-open" : ""}`}
         initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
