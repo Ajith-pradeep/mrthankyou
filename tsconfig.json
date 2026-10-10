@@ -30,5 +30,17 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "src/components/About.tsx",
+    "src/components/Certifications.tsx",
+    "src/components/Contact.tsx",
+    "src/components/Experience.tsx",
+    "src/components/Expertise.tsx",
+    "src/components/Hero.tsx",
+    "src/components/Marquee.tsx",
+    "src/components/Nav.tsx",
+    "src/components/Preloader.tsx",
+    "src/components/Work.tsx"
+  ]
 }
