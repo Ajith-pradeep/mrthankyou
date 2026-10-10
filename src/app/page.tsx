@@ -639,9 +639,10 @@ export default function Home() {
           MR. THANK YOU
         </a>
         <span>Editorial profile</span>
-        <a href={profile.facebook} target="_blank" rel="noreferrer">
+        <a className="footer-link" href={profile.facebook} target="_blank" rel="noreferrer">
           Facebook <span aria-hidden="true">↗</span>
         </a>
+        <p className="footer-credit">Developed by Ajith Pradeep</p>
       </footer>
     </>
   );
