@@ -35,7 +35,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   background:
-    radial-gradient(900px 520px at 88% -8%, rgba(228, 194, 122, 0.16), transparent 58%),
+    /* radial-gradient(900px 520px at 88% -8%, rgba(228, 194, 122, 0.16), transparent 58%), */
     radial-gradient(720px 480px at -12% 18%, rgba(88, 104, 150, 0.16), transparent 55%),
     var(--paper);
   color: var(--ink);
@@ -1959,7 +1959,7 @@ button:focus-visible {
 }
 
 .media-image-singer {
-  object-position: center 68%;
+  object-position: center 32%;
 }
 
 .theme-image,

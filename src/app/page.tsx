@@ -516,8 +516,8 @@ export default function Home() {
             <article className="media-card reveal-item">
               <div className="media-image-wrap">
                 <Image
-                  src="/shorts/let-it-fly.jpg"
-                  alt="Mr Thank You singing into a microphone during a performance"
+                  src="/mr-thank-you/singer-pink.jpg"
+                  alt="Mr Thank You in a pink tuxedo, adjusting his sunglasses"
                   fill
                   sizes="(max-width: 900px) 100vw, 50vw"
                   className="media-image-singer"
